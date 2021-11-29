@@ -4,32 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Creative template</title>
+    <script defer src="./app.js"></script>
 </head>
 <body>
     <div id='overall'>
         <header id='header'>
-            <img src="" alt="company logo">
             <nav>
+                <img src="./logos/1.png" alt="company logo" width=50>
                 <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#home" class='link'>HOME</a></li>
+                    <li><a href="#about" class='link'>ABOUT</a></li>
+                    <li><a href="#services" class='link'>SERVICES</a></li>
+                    <li><a href="#portfolio" class='link'>PORTFOLIO</a></li>
+                    <li><a href="#contact" class='link'>CONTACT</a></li>
                 </ul>
             </nav>
-            <div></div>
+            <div id='slides'>
+                <div class='slide'>
+                    <div>
+                        <h2>We can change your digital world</h2>
+                        <p>Bold enough to blow a hole in your next marketing campaign.</p>
+                    </div>
+                </div>
+                <div class='slide'>
+                    <div>
+                        <h2>You need a good partner</h2>
+                        <p>Let us help you realise your true potential</p>
+                    </div>
+                </div>
+                <div class='slide'>
+                    <div>
+                        <h2>Shoot for the hoop!</h2>
+                        <p>Aiming low is not an option for us</p>
+                    </div>
+                </div>
+            </div>
+            <span><</span>
+            <span>></span>
         </header>
         <main id='main' role='main'>
             <section id='about'>
                 <div class='contentContainer'>
-                    <img src="" alt="about img1">
+                    <img src="./images/1.jpg" alt="about img1">
                     <article class='content'>
                         <h2>Creative & fresh</h2>
                         <p class='italic'>Our digital agency</p>
                         <p>Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha. Social proof lean startup alpha scrum project non-disclosure agreement.</p>
-                        <a href="#portfolio"><button>VEIW PORTFOLIO</button></a>
+                        <a href="#portfolio" class='link'><button>VEIW PORTFOLIO</button></a>
                     </article>
                 </div>
                 <div class='contentContainer'>
@@ -37,35 +60,52 @@
                         <h2>Hip & Funcy</h2>
                         <p class='italic'>We try new things</p>
                         <p>Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha. Social proof lean startup alpha scrum project non-disclosure agreement. </p>
-                        <a href="#services"><button>OUR SERVICES</button></a>
+                        <a href="#services" class='link'><button>OUR SERVICES</button></a>
                     </article>
-                    <img src="" alt="about img2">
+                    <img src="./images/2.jpg" alt="about img2">
                 </div>
-                <div></div>
+                <div>
+                    <div>
+                        <h2>342</h2>
+                        <p class='italic'>cups of coffee</p>
+                    </div>
+                    <div>
+                        <h2>756</h2>
+                        <p class='italic'>Bycicle Kilometers</p>
+                    </div>
+                    <div>
+                        <h2>419</h2>
+                        <p class='italic'>Brainstorm sessions</p>
+                    </div>
+                    <div>
+                        <h2>284</h2>
+                        <p class='italic'>Video hours</p>
+                    </div>
+                </div>
             </section>
             <section id='services'>
                 <div class='contentContainer'>
-                    <img src="" alt="services img">
+                    <img src="./images/3.jpg" alt="services img">
                     <article class='content'>
                         <h2>Things we do</h2>
                         <p class='italic'>We exist to create</p>
                         <p>Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha. Social proof lean startup alpha scrum project non-disclosure agreement.</p>
-                        <a href="#contact"><button>GET IN TOUCH</button></a>
+                        <a href="#contact" class='link'><button>GET IN TOUCH</button></a>
                     </article>
                 </div>
                 <div id='kindsOfServicesContatiner'>
                     <div class='kindsOfServices'>
-                        <img src="" alt="branding logo">
+                        <img src="./logos/2.png" alt="branding logo">
                         <h2>Branding</h2>
                         <p>Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha.</p>
                     </div>
                     <div class='kindsOfServices'>
-                        <img src="" alt="web design logo">
+                        <img src="./logos/3.png" alt="web design logo">
                         <h2>Web Design</h2>
                         <p>Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha.</p>
                     </div>
                     <div class='kindsOfServices'>
-                        <img src="" alt="graphic design logo">
+                        <img src="./logos/4.png" alt="graphic design logo">
                         <h2>Graphic Design</h2>
                         <p>Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha.</p>
                     </div>
@@ -82,7 +122,6 @@
                     <h2>Latest creations</h2>
                     <p class='italic'>We make beautiful things</p>
                     <p>Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking.</p>
-                    <a href="#contact"><button>GET IN TOUCH</button></a>
                 </article>
 
             </section>
@@ -105,10 +144,10 @@
             <div>
                 <p>MENU</p>
                 <ul>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#about" class='link'>ABOUT</a></li>
+                    <li><a href="#services" class='link'>SERVICES</a></li>
+                    <li><a href="#portfolio" class='link'>PORTFOLIO</a></li>
+                    <li><a href="#contact" class='link'>CONTACT</a></li>
                 </ul>
             </div>
             <div>

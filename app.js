@@ -90,9 +90,9 @@ function close() {
 }
 
 // 햄버거 메뉴
-const hamburger = document.querySelector("#hamburger");
-hamburger.addEventListener("click", (e) => {
-  e.target.style.visibility = "hidden";
-  const nav = document.querySelector("nav");
-  nav.style.visibility = "visible";
+const subNav = document.querySelector("#header>.subNav");
+const hamburger = document.querySelector("#header>.hamburger");
+hamburger.addEventListener("click", () => {
+  subNav.classList.toggle("top");
+  hamburger.classList.toggle("color");
 });
